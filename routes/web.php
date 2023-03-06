@@ -23,30 +23,29 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-// Route::get('/home', function () {
-//     return view('home');
-// });
+ Route::get('/home', function () {
+     return view('home');
+ });
 
-// Route::get('/', function () {
-//     return view('layouts.auth');
-// });
+ Route::get('/', function () {
+     return view('layouts.auth');
+ });
 
-// Route::get('/', function () {
-//     return view('index');
-// });
-// Route::get('/books', function () {
-//     return view('books');
-// });
-// Route::get('/contact', function () {
-//     return view('contact');
-// });
-// Route::get('/prices', function () {
-//     return view('prices');
-// });
-// Route::get('/', function () {
-//     return view('Login');
-// });
-
+ Route::get('/', function () {
+     return view('index');
+ });
+ Route::get('/books', function () {
+     return view('books');
+ });
+ Route::get('/contact', function () {
+     return view('contact');
+ });
+ Route::get('/prices', function () {
+     return view('prices');
+ });
+ /*Route::get('/', function () {
+     return view('Login');
+ });*/ 
 
 Auth::routes();
 

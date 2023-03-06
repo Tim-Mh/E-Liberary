@@ -229,7 +229,7 @@
                     </div>
                 </div>
             </div>
-            {{-- <div class="col-xl-6 col-xxl-6 col-lg-6 col-md-12 col-sm-12">
+            <!--<div class="col-xl-6 col-xxl-6 col-lg-6 col-md-12 col-sm-12">
                 <div class="card">
                     <div class="card-header">
                         <h4 class="card-title">Exam Toppers</h4>
@@ -296,7 +296,8 @@
                         </div>
                     </div>
                 </div>
-            </div> --}}
+            </div> -->
+            <!--[ i will start crud system for student]-->
             <div class="col-xl-12 col-xxl-12 col-lg-12 col-md-12 col-sm-12">
                 <div class="card">
                     <div class="card-header">
