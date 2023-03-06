@@ -38,15 +38,15 @@ Route::get('/', function () {
 // Route::get('/', function () {
 //     return view('index');
 // });
-// Route::get('/books', function () {
-//     return view('books');
-// });
-// Route::get('/contact', function () {
-//     return view('contact');
-// });
-// Route::get('/prices', function () {
-//     return view('prices');
-// });
+Route::get('/books', function () {
+    return view('books');
+});
+Route::get('/contact', function () {
+    return view('contact');
+});
+Route::get('/prices', function () {
+    return view('prices');
+});
 // Route::get('/', function () {
 //     return view('Login');
 // });
@@ -54,7 +54,7 @@ Route::get('/', function () {
 
 Auth::routes();
 
-Route::get('/home', [HomeController::class, 'index'])->name('index');
+Route::get('/home', [HomeController::class, 'index'])->name('home');
 // Route::POST('/login', [loginController::class, 'login'])->name('login');
 Route::POST('/login-user', [loginController::class, 'user'])->name('login_user');
 
@@ -66,6 +66,3 @@ Route::group(['middleware' => ['auth']], function() {
     Route::resource('users', UserController::class);
     Route::resource('products', ProductController::class);
 });
-
-
-
