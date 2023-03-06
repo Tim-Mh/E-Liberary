@@ -76,7 +76,7 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-xs-12 text-right">
-						<p class="num">Call: +01 123 456 7890</p>
+						<p class="num">Call: 042-38103777</p>
 						<ul class="fh5co-social">
 							<li><a href="#"><i class="icon-twitter"></i></a></li>
 							<li><a href="#"><i class="icon-dribbble"></i></a></li>
@@ -485,56 +485,56 @@
             <div class="col-lg-3">
                 <div class="instructor-box">
                     <div class="instructor-img">
-                        <img src="images/saqib.png" alt="Instructor">
+                        <img src="images/saqib ali.png" alt="Instructor">
                         <ul>
                             <li><a href="javascript:void(0);"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
                             <li><a href="javascript:void(0);"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
                             <li><a href="javascript:void(0);"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
                         </ul>
                     </div>
-                    <a href="instructor-detail.html"><h3 class="h3-title">Kelly Franklin</h3></a>
+                    <a href="instructor-detail.html"><h3 class="h3-title">Saqib Ali</h3></a>
                     <p>Instructor</p>
                 </div>
             </div>
             <div class="col-lg-3">
                 <div class="instructor-box">
                     <div class="instructor-img">
-                        <img src="images/instructor-2.jpg" alt="Instructor">
+                        <img src="images/sir rauf.png" alt="Instructor">
                         <ul>
                             <li><a href="javascript:void(0);"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
                             <li><a href="javascript:void(0);"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
                             <li><a href="javascript:void(0);"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
                         </ul>
                     </div>
-                    <a href="instructor-detail.html"><h3 class="h3-title">Indigo Violet</h3></a>
+                    <a href="instructor-detail.html"><h3 class="h3-title">Sir Rauf</h3></a>
                     <p>Instructor</p>
                 </div>
             </div>
             <div class="col-lg-3">
                 <div class="instructor-box">
                     <div class="instructor-img">
-                        <img src="images/instructor-3.jpg" alt="Instructor">
+                        <img src="images/sir english.png" alt="Instructor">
                         <ul>
                             <li><a href="javascript:void(0);"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
                             <li><a href="javascript:void(0);"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
                             <li><a href="javascript:void(0);"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
                         </ul>
                     </div>
-                    <a href="instructor-detail.html"><h3 class="h3-title">Jason Response</h3></a>
+                    <a href="instructor-detail.html"><h3 class="h3-title">Sir</h3></a>
                     <p>Instructor</p>
                 </div>
             </div>
             <div class="col-lg-3">
                 <div class="instructor-box">
                     <div class="instructor-img">
-                        <img src="images/instructor-4.jpg" alt="Instructor">
+                        <img src="images/miss mehwish.png" alt="Instructor">
                         <ul>
                             <li><a href="javascript:void(0);"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
                             <li><a href="javascript:void(0);"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
                             <li><a href="javascript:void(0);"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
                         </ul>
                     </div>
-                    <a href="instructor-detail.html"><h3 class="h3-title">Jonquil Von</h3></a>
+                    <a href="instructor-detail.html"><h3 class="h3-title">Miss Mehwish</h3></a>
                     <p>Instructor</p>
                 </div>
             </div>
@@ -613,7 +613,7 @@
 			<div class="row animate-box">
 				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
 					<h2>Lets Get Started</h2>
-					<p>Dignissimos asperiores vitae velit veniam totam fuga molestias accusamus alias autem provident. Odit ab aliquam dolor eius.</p>
+					<p>The beginning of something great starts with a single step</p>
 				</div>
 			</div>
 			<div class="row animate-box">
@@ -628,8 +628,8 @@
 		<div class="container">
 			<div class="row row-pb-md">
 				<div class="col-md-3 fh5co-widget">
-					<h4>About Learning</h4>
-					<p>Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia reprehenderit. Eos cumque dicta adipisci architecto culpa amet.</p>
+					<h4>About University</h4>
+					<p>Superior University has built a level of trust and confidence among its existing and aspiring students due to the launch of innovative but effective study and work plans.</p>
 				</div>
 				<div class="col-md-2 col-sm-4 col-xs-6 col-md-push-1">
 					<h4>Learning</h4>
