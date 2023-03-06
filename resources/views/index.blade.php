@@ -79,8 +79,7 @@
 						<p class="num">Call: +01 123 456 7890</p>
 						<ul class="fh5co-social">
 							<li><a href="#"><i class="icon-twitter"></i></a></li>
-							<li><a href="#"><i class="icon-dribbble"></i></a></li>
-							<li><a href="#"><i class="icon-facebook"></i></a></li>
+							<li><a href="#"><i class="icon-dribbebook"></i></a></li>
 							<li><a href="#"><i class="icon-facebook"></i></a></li>
 						</ul>
 					</div>
@@ -108,7 +107,10 @@
 								</ul>
 							</li>
 							<li><a href="{{url('contact')}}">Contact</a></li>
-							<li class="btn-cta"><a href="{{url('login')}}"><span>Login</span></a></li>
+							<form method="post" action="{{route('logout')}}">
+								@csrf
+							<li class="btn-cta"><span>Login</span></a></li>
+							</form>
 							<li class="btn-cta"><a href="#"><span>Create a Course</span></a></li>
 						</ul>
 					</div>
