@@ -79,8 +79,7 @@
 						<p class="num">Call: 042-38103777</p>
 						<ul class="fh5co-social">
 							<li><a href="#"><i class="icon-twitter"></i></a></li>
-							<li><a href="#"><i class="icon-dribbble"></i></a></li>
-							<li><a href="#"><i class="icon-facebook"></i></a></li>
+							<li><a href="#"><i class="icon-dribbebook"></i></a></li>
 							<li><a href="#"><i class="icon-facebook"></i></a></li>
 						</ul>
 					</div>
@@ -108,7 +107,10 @@
 								</ul>
 							</li>
 							<li><a href="{{url('contact')}}">Contact</a></li>
-							<li class="btn-cta"><a href="{{url('login')}}"><span>Logout</span></a></li>
+							<form method="post" action="{{route('logout')}}">
+								@csrf
+							<li class="btn-cta"><span>Login</span></a></li>
+							</form>
 							<li class="btn-cta"><a href="#"><span>Create a Course</span></a></li>
 						</ul>
 					</div>
@@ -308,46 +310,46 @@
 		<div class="container">
 			<div class="row animate-box">
 				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
-					<h2>Our Department</h2>
-					<p>Librarians have always been among the most thoughtful and helpful people. They are teachers without a classroom. No libraries, no progress.</p>
+					<h2>Showcase of A Finish Projects</h2>
+					<p>Dignissimos asperiores vitae velit veniam totam fuga molestias accusamus alias autem provident. Odit ab aliquam dolor eius.</p>
 				</div>
 			</div>
 		</div>
 		<div class="container-fluid proj-bottom">
 			<div class="row">
 				<div class="col-md-4 col-sm-6 fh5co-project animate-box" data-animate-effect="fadeIn">
-					<a href="#"><img src="images/bsrai-image.png" alt="Free HTML5 Website Template by FreeHTML5.co" class="img-responsive">
-						<!-- <h3>Web Master</h3> -->
+					<a href="#"><img src="images/web pic.jpg" alt="Free HTML5 Website Template by FreeHTML5.co" class="img-responsive">
+						<h3>Web Master</h3>
 						<span>View Course</span>
 					</a>
 				</div>
 				<div class="col-md-4 col-sm-6 fh5co-project animate-box" data-animate-effect="fadeIn">
-					<a href="#"><img src="images/bsrai-image.png" alt="Free HTML5 Website Template by FreeHTML5.co" class="img-responsive">
-						<!-- <h3>Virtual Assistant</h3> -->
+					<a href="#"><img src="images/virtual as.jpg" alt="Free HTML5 Website Template by FreeHTML5.co" class="img-responsive">
+						<h3>Virtual Assistant</h3>
 						<span>View Course</span>
 					</a>
 				</div>
 				<div class="col-md-4 col-sm-6 fh5co-project animate-box" data-animate-effect="fadeIn">
-					<a href="#"><img src="images/bsrai-image.png" alt="Free HTML5 Website Template by FreeHTML5.co" class="img-responsive">
-					<!-- <h3>Read Books</h3> -->
+					<a href="#"><img src="images/read books.jpg" alt="Free HTML5 Website Template by FreeHTML5.co" class="img-responsive">
+						<h3>Read Books</h3>
 						<span>View Course</span>
 					</a>
 				</div>
 				<div class="col-md-4 col-sm-6 fh5co-project animate-box" data-animate-effect="fadeIn">
-					<a href="#"><img src="images/bscommerce-image.png" alt="Free HTML5 Website Template by FreeHTML5.co" class="img-responsive">
-						<!-- <h3>Programming</h3> -->
+					<a href="#"><img src="images/programming.jpg" alt="Free HTML5 Website Template by FreeHTML5.co" class="img-responsive">
+						<h3>Programming</h3>
 						<span>View Course</span>
 					</a>
 				</div>
 				<div class="col-md-4 col-sm-6 fh5co-project animate-box" data-animate-effect="fadeIn">
-					<a href="#"><img src="images/bsaf-image-3.png" alt="Free HTML5 Website Template by FreeHTML5.co" class="img-responsive">
-						<!-- <h3>Technician</h3> -->
+					<a href="#"><img src="images/techician.jpg" alt="Free HTML5 Website Template by FreeHTML5.co" class="img-responsive">
+						<h3>Technician</h3>
 						<span>View Course</span>
 					</a>
 				</div>
 				<div class="col-md-4 col-sm-6 fh5co-project animate-box" data-animate-effect="fadeIn">
-					<a href="#"><img src="images/bsenglish-image.png" alt="Free HTML5 Website Template by FreeHTML5.co" class="img-responsive">
-						<!-- <h3>Photography</h3> -->
+					<a href="#"><img src="images/cam.jpg" alt="Free HTML5 Website Template by FreeHTML5.co" class="img-responsive">
+						<h3>Photography</h3>
 						<span>View Course</span>
 					</a>
 				</div>
@@ -357,16 +359,16 @@
 			<div class="row">
 				<div class="features">
 					<div class="col-md-4 animate-box">
-					 <h4>How would you describe a good online course?</h4>
-					 <p>A good online course is engaging and challenging. It invites students to participate, motivates them to contribute and captures their interest and attention. It capitalizes on the joy of learning and challenges students to enhance their skills, abilities and knowledge.  </p>
+						<h4>We have coolest features of this course</h4>
+						<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.  </p>
 					</div>
 					<div class="col-md-4 animate-box">
-						<h4>What is the content of a course?</h4>
-						<p>Any informational material that is required for participation or understanding content such as assigned readings, video recordings, exams, and any other material needed for learning. </p>
+						<h4>Great teachers that we have</h4>
+						<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.  </p>
 					</div>
 					<div class="col-md-4 animate-box">
-						<h4>What is positive about distance learning?</h4>
-						<p>The top benefit of distance education is its flexibility. Students can choose when, where, and how they learn by selecting the time, place, and medium for their education. For those who want direct, live access to teachers there are video conferencing options.  </p>
+						<h4>Steps by steps turorial session</h4>
+						<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.  </p>
 					</div>
 				</div>
 				<div class="col-md-12 text-center animate-box">
@@ -380,8 +382,8 @@
 		<div class="container">
 			<div class="row animate-box">
 				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
-				<h2>What are the elements of a course?</h2>
-					<p>Course elements are the building blocks that make up your course. We will use the RASE Pedagogical Model (Churchill et al., 2013) pedagogical model to frame the four main elements that make up any course: Resources, Activities, Supports, and Evaluations.</p>
+					<h2>Start A Course</h2>
+					<p>Dignissimos asperiores vitae velit veniam totam fuga molestias accusamus alias autem provident. Odit ab aliquam dolor eius.</p>
 				</div>
 			</div>
 
