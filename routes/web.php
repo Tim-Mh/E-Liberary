@@ -27,33 +27,34 @@ Route::get('/', function () {
     return view('welcome');
 });
 
- Route::get('/home', function () {
-     return view('home');
- });
+// Route::get('/home', function () {
+//     return view('home');
+// });
 
- Route::get('/', function () {
-     return view('layouts.auth');
- });
+// Route::get('/', function () {
+//     return view('layouts.auth');
+// });
 
- Route::get('/', function () {
-     return view('index');
- });
- Route::get('/books', function () {
-     return view('books');
- });
- Route::get('/contact', function () {
-     return view('contact');
- });
- Route::get('/prices', function () {
-     return view('prices');
- });
- /*Route::get('/', function () {
-     return view('Login');
- });*/ 
+// Route::get('/', function () {
+//     return view('index');
+// });
+Route::get('/books', function () {
+    return view('books');
+});
+Route::get('/contact', function () {
+    return view('contact');
+});
+Route::get('/prices', function () {
+    return view('prices');
+});
+// Route::get('/', function () {
+//     return view('Login');
+// });
+
 
 Auth::routes();
 
-Route::get('/home', [HomeController::class, 'index'])->name('index');
+Route::get('/home', [HomeController::class, 'index'])->name('home');
 // Route::POST('/login', [loginController::class, 'login'])->name('login');
 Route::POST('/login-user', [loginController::class, 'user'])->name('login_user');
 
@@ -65,6 +66,6 @@ Route::group(['middleware' => ['auth']], function() {
     Route::resource('users', UserController::class);
     Route::resource('products', ProductController::class);
 });
+Auth::routes();
 
-
-
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
