@@ -491,7 +491,7 @@
                             <li><a href="javascript:void(0);"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
                         </ul>
                     </div>
-                    <a href="instructor-detail.html"><h3 class="h3-title">Saqib Ali</h3></a>
+                    <a href="instructor-detail.html"><h3 class="h3-title">Sir Saqib Ali</h3></a>
                     <p>Instructor</p>
                 </div>
             </div>
