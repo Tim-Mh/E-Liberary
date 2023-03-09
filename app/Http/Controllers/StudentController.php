@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use DB;
+use Hash;
 
 class StudentController extends Controller
 {
@@ -57,17 +58,24 @@ class StudentController extends Controller
     public function update(Request $request, $id)
     {
         DB::table('users')->where('id', $id)->update([
-            'name' => 'required',
-            'email' => 'required|email|unique:users,email',
-            'password' => 'required|same:confirm-password',
+            'name' => $request->name,
+            'email' => $request->email,   
+            'password' =>Hash::make($request->password),
         ]);
+        // return redirect(route('layouts.dcrudform'))->with('status', 'Student Updated!!');
+        return redirect()->route('home')
+        ->with('success','User updated successfully');
     }
 
     /**
      * Remove the specified resource from storage.
      */
-    public function destroy(string $id)
+    public function destroy($id)
     {
-        //
+        DB::table('users')->where('id', $id)->delete();
+        return redirect()->route('home')
+        ->with('success','User deleted successfully');
     }
 }
+
+?>

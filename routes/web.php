@@ -80,8 +80,8 @@ Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name
 
 Route::get('/dcrudform', [App\Http\Controllers\StudentController::class, 'edit'])->name('dcrudform');
 
-Route::get('/dcrudform/{id}', [App\Http\Controllers\StudentController::class, 'edit'])->name('edit')->name('dcrudform');
+Route::get('/dcrudform/{id}', [App\Http\Controllers\StudentController::class, 'edit'])->name('edit');
 
-Route::put('/dcrudform/{id}', [App\Http\Controllers\StudentController::class, 'edit'])->name('edit')->name('dcrudform');
+Route::put('/dcrudform/{id}', [App\Http\Controllers\StudentController::class, 'update'])->name('update');
 
-
+Route::get('/delete/{id}', [App\Http\Controllers\StudentController::class, 'destroy'])->name('destroy');

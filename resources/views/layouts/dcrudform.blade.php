@@ -22,20 +22,21 @@
 
 <form action="" method="POST" class="w-75 mx-auto m-5" style="width: 200px;">
 @csrf
+@method('PUT')
 <div class="form-group">
     <label for="exampleInputEmail1">username</label>
     <input type="text" class="form-control" id="name" name="name" value="{{ $student->name}}" placeholder="user name">    
   </div>
   <div class="form-group">
     <label for="exampleInputEmail1">Email</label>
-    <input type="emil" class="form-control" id="name" name="name" value="{{ $student->email}}" placeholder="user email">    
+    <input type="emil" class="form-control" id="name" name="email" value="{{ $student->email}}" placeholder="user email">    
   </div>
   <div class="form-group">
     <label for="exampleInputEmail1">Password</label>
-    <input type="password" class="form-control" id="name" name="name" value="{{ $student->password}}" placeholder="Password">    
+    <input type="password" class="form-control" id="name" name="password" value="{{ $student->password}}" placeholder="Password">    
   </div>
 
-  <button type="submit" class="btn btn-primary w-100">Submit</button>
+  <button type="submit" class="btn btn-primary w-100">update</button>
 </form>
 
 

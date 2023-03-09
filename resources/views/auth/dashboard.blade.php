@@ -190,7 +190,7 @@
                 </div>
             </div>
             
-            <div class="col-xl-6 col-xxl-6 col-lg-6 col-md-12 col-sm-12">
+            <!-- <div class="col-xl-6 col-xxl-6 col-lg-6 col-md-12 col-sm-12">
                 <div class="card">
                     <div class="card-body">
                         <form action="#" method="post">
@@ -228,7 +228,7 @@
                         </form>
                     </div>
                 </div>
-            </div>
+            </div> -->
             <!--<div class="col-xl-6 col-xxl-6 col-lg-6 col-md-12 col-sm-12">
                 <div class="card">
                     <div class="card-header">
@@ -298,7 +298,7 @@
                 </div>
             </div> -->
         
-            <div class="col-xl-12 col-xxl-12 col-lg-12 col-md-12 col-sm-12">
+            <!-- <div class="col-xl-12 col-xxl-12 col-lg-12 col-md-12 col-sm-12">
                 <div class="card">
                     <div class="card-header">
                         <h4 class="card-title">New Student List</h4>
@@ -390,10 +390,13 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> -->
            <!--[ i will start crud system for student]-->
   
         <div class="w-100 shadow-lg">
+        <div class="card-header">
+                        <h4 class="card-title">New Student List</h4>
+                    </div>
                 <table class="table table-bordered table-hover">
                 <thead>
                     <tr>
@@ -401,6 +404,7 @@
                             <th scope="col">Name</th>
                             <th scope="col">Email</th>
                             <th scope="col">Password</th>
+                            <th scope="col">Roll</th>
                             <th scope="col">Actions</th>
                         </tr>
                     </thead>
@@ -412,15 +416,23 @@
                             <th class="fw-lighter">{{$stud->email}}</th>
                             <th class="fw-lighter">{{$stud->password}}</th>
                             <td>
-                                <!-- <a href="{{ route('dcrudform') }}" class="btn btn-info btn-sm">Edit</a> -->
-                                <a href="{{ url('/dcrudform', $stud->id) }}">Edit Student</a>
 
-                                <a href="" class="btn btn-danger btn-sm">Delete</a>
+                            </td>
+                            <td>
+                                <!-- <a href="{{ route('dcrudform') }}" class="btn btn-info btn-sm">Edit</a> -->
+                                <a href="{{ url('/dcrudform', $stud->id) }}" class="btn btn-info btn-sm p-3"><i class="la la-pencil"></i></a>
+
+                                <a href="{{ url('/delete', $stud->id) }}" class="btn btn-danger btn-sm p-3"><i class="la la-trash-o"></i></a>
                             </td>
                         </tr>
                         @endforeach
                     </tbody>
-                </table>                   
+                </table>  
+                @if(session()->has('status'))
+                <div class="alert alert-success">
+                    {{session('status')}}
+                </div>
+                @endif
             </div> 
     </div>
 </div>

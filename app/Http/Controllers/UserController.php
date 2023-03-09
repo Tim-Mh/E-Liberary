@@ -133,3 +133,5 @@ class UserController extends Controller
                         ->with('success','User deleted successfully');
     }
 }
+
+?>
