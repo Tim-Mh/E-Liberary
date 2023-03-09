@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use DB;
 
 class HomeController extends Controller
 {
@@ -23,6 +24,15 @@ class HomeController extends Controller
      */
     public function index()
     {
-        return view('auth.dashboard');
+
+        $students = DB::table('users')->get();
+        return View('auth.dashboard',['students'=> $students]);
+    }
+
+    public function edit()
+    {
+
+       
+        return View('layouts.dcrudform');
     }
 }

@@ -47,6 +47,10 @@ Route::get('/contact', function () {
 Route::get('/prices', function () {
     return view('prices');
 });
+
+/*Route::get('/dcrudform', function () {
+    return view('dcrudform');
+});*/
 // Route::get('/', function () {
 //     return view('Login');
 // });
@@ -69,3 +73,15 @@ Route::group(['middleware' => ['auth']], function() {
 Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+
+Auth::routes();
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+
+Route::get('/dcrudform', [App\Http\Controllers\StudentController::class, 'edit'])->name('dcrudform');
+
+Route::get('/dcrudform/{id}', [App\Http\Controllers\StudentController::class, 'edit'])->name('edit')->name('dcrudform');
+
+Route::put('/dcrudform/{id}', [App\Http\Controllers\StudentController::class, 'edit'])->name('edit')->name('dcrudform');
+
+

@@ -297,7 +297,7 @@
                     </div>
                 </div>
             </div> -->
-            <!--[ i will start crud system for student]-->
+        
             <div class="col-xl-12 col-xxl-12 col-lg-12 col-md-12 col-sm-12">
                 <div class="card">
                     <div class="card-header">
@@ -391,8 +391,41 @@
                 </div>
             </div>
         </div>
-        
+           <!--[ i will start crud system for student]-->
+  
+        <div class="w-100 shadow-lg">
+                <table class="table table-bordered table-hover">
+                <thead>
+                    <tr>
+                            <th scope="col">ID</th>
+                            <th scope="col">Name</th>
+                            <th scope="col">Email</th>
+                            <th scope="col">Password</th>
+                            <th scope="col">Actions</th>
+                        </tr>
+                    </thead>
+                    <tbody class="fs-6">
+                        @foreach ($students as $stud)
+                        <tr>
+                            <th class="fw-lighter">{{$stud->id}}</th>
+                            <th class="fw-lighter">{{$stud->name}}</th>
+                            <th class="fw-lighter">{{$stud->email}}</th>
+                            <th class="fw-lighter">{{$stud->password}}</th>
+                            <td>
+                                <!-- <a href="{{ route('dcrudform') }}" class="btn btn-info btn-sm">Edit</a> -->
+                                <a href="{{ url('/dcrudform', $stud->id) }}">Edit Student</a>
+
+                                <a href="" class="btn btn-danger btn-sm">Delete</a>
+                            </td>
+                        </tr>
+                        @endforeach
+                    </tbody>
+                </table>                   
+            </div> 
     </div>
 </div>
 
 @endsection
+
+
+ <!--[ ending of student crud ]-->
