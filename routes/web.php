@@ -38,8 +38,21 @@ Route::get('/', function () {
 // Route::get('/', function () {
 //     return view('index');
 // });
-Route::get('/books', function () {
-    return view('books');
+
+Route::get('/index', function () {
+    return view('index');
+});
+Route::get('/itdepartment', function () {
+    return view('itdepartment');
+});
+Route::get('/CommerceDepartment', function () {
+    return view('CommerceDepartment');
+});
+Route::get('/AccountingDepartment', function () {
+    return view('AccountingDepartment');
+});
+Route::get('/EnglishDepartment', function () {
+    return view('EnglishDepartment');
 });
 Route::get('/contact', function () {
     return view('contact');
@@ -47,6 +60,14 @@ Route::get('/contact', function () {
 Route::get('/prices', function () {
     return view('prices');
 });
+
+/*----------------------[it books page route]------------------------*/
+
+Route::get('/itbookone', function () {
+    return view('itbookpage.itbookone');
+});
+
+
 
 /*Route::get('/dcrudform', function () {
     return view('dcrudform');

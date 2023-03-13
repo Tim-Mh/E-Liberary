@@ -76,8 +76,16 @@
 					</div>
 					<div class="col-xs-11 text-right menu-1">
 						<ul>
-							<li class="active"><a href="{{url('/')}}">Home</a></li>
-							<li><a href="{{url('books')}}">Courses</a></li>
+							<li class="active"><a href="{{url('index')}}">Home</a></li>
+							<li class="has-dropdown">
+								<a href="#">Courses</a>
+								<ul class="dropdown">
+									<li><a href="{{url('itdepartment')}}">IT Department</a></li>
+									<li><a href="{{url('CommerceDepartment')}}">Commerce Department</a></li>
+									<li><a href="{{url('CommerceDepartment')}}">Accounting Department</a></li>
+									<li><a href="#">English Department</a></li>
+								</ul>
+							</li>
 							<li><a href="{{url('prices')}}">Pricing</a></li>
 							<li class="has-dropdown">
 								<a href="blog.html">Blog</a>
@@ -106,7 +114,7 @@
 				<div class="col-md-8 col-md-offset-2 text-center">
 					<div class="display-t">
 						<div class="display-tc animate-box" data-animate-effect="fadeIn">
-							<h1>Courses</h1>
+                            <h1>BS Accounting Department</h1>
 							<h2>Free html5 templates Made by <a href="http://freehtml5.co" target="_blank">freehtml5.co</a></h2>
 						</div>
 					</div>
