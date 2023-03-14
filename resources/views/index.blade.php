@@ -95,10 +95,22 @@
 					<div class="col-xs-11 text-right menu-1">
 						<ul>
 							<li class="active"><a href="{{url('#')}}">Home</a></li>
+
 							<li><a href="{{url('books')}}">Courses</a></li>
+
+							<li class="has-dropdown">
+								<a href="#">Courses</a>
+								<ul class="dropdown">
+									<li><a href="{{url('itdepartment')}}">IT Department</a></li>
+									<li><a href="{{url('CommerceDepartment')}}">Commerce Department</a></li>
+									<li><a href="{{url('AccountingDepartment')}}">Accounting Department</a></li>
+									<li><a href="{{url('EnglishDepartment')}}">English Department</a></li>
+								</ul>
+							</li>
+
 							<li><a href="{{url('prices')}}">Pricing</a></li>
 							<li class="has-dropdown">
-								<a href="blog.html">Blog</a>
+								<a href="blog.html">video</a>
 								<ul class="dropdown">
 									<li><a href="#">Web Design</a></li>
 									<li><a href="#">eCommerce</a></li>
@@ -729,7 +741,7 @@
     <script src="{{ asset('js/jquery.magnific-popup.min.js') }}" ></script>
     <script src="{{ asset('js/magnific-popup-options.js') }}" ></script>
 	<!-- Main -->
-	{{-- <script src="js/main.js"></script> --}}
+	<!-- {{-- <script src="js/main.js"></script> --}} -->
     <script src="{{ asset('js/main.js') }}" ></script>
 
 	
