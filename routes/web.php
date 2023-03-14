@@ -6,6 +6,8 @@ use App\Http\Controllers\loginController;
 use App\Http\Controllers\RoleController;
 use App\Http\Controllers\UserController;
 use App\Http\Controllers\ProductController;
+use App\Http\Controllers\GoogleController;
+
 
 // use App\Http\Controllers\registerController;  
 
@@ -85,3 +87,5 @@ Route::get('/dcrudform/{id}', [App\Http\Controllers\StudentController::class, 'e
 Route::put('/dcrudform/{id}', [App\Http\Controllers\StudentController::class, 'update'])->name('update');
 
 Route::get('/delete/{id}', [App\Http\Controllers\StudentController::class, 'destroy'])->name('destroy');
+Route::get('google-autocomplete', [GoogleController::class, 'index']);
+

@@ -3,7 +3,7 @@
 	<head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>Learn &mdash; Free Website Template, Free HTML5 Template by freehtml5.co</title>
+	<title>Superior University</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="description" content="Free HTML5 Website Template by freehtml5.co" />
 	<meta name="keywords" content="free website templates, free html5, free template, free bootstrap, free website template, html5, css3, mobile first, responsive" />
@@ -57,7 +57,7 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-xs-12 text-right">
-						<p class="num">Call: +01 123 456 7890</p>
+						<p class="num">Call: 042-38103777</p>
 						<ul class="fh5co-social">
 							<li><a href="#"><i class="icon-twitter"></i></a></li>
 							<li><a href="#"><i class="icon-dribbble"></i></a></li>
@@ -106,7 +106,7 @@
 					<div class="display-t">
 						<div class="display-tc animate-box" data-animate-effect="fadeIn">
 							<h1>Pricing Plan</h1>
-							<h2>Free html5 templates Made by <a href="#" target="_blank">freehtml5.co</a></h2>
+							{{-- <h2>Free html5 templates Made by <a href="#" target="_blank">freehtml5.co</a></h2> --}}
 						</div>
 					</div>
 				</div>
@@ -190,13 +190,13 @@
 		</div>
 	</div>
 	
-	<div id="fh5co-started" style="background-image:url(images/img_bg_2.jpg);">
+	<div id="fh5co-started" style="background-image:url(images/static.jpg);">
 		<div class="overlay"></div>
 		<div class="container">
 			<div class="row animate-box">
 				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
 					<h2>Lets Get Started</h2>
-					<p>Dignissimos asperiores vitae velit veniam totam fuga molestias accusamus alias autem provident. Odit ab aliquam dolor eius.</p>
+					<p>We accuse the most worthy of the harshest things in life, but they provide for the whole flight of troubles. He hates some of his pain.</p>
 				</div>
 			</div>
 			<div class="row animate-box">
@@ -207,12 +207,12 @@
 		</div>
 	</div>
 
-	<footer id="fh5co-footer" role="contentinfo">
+	<	<footer id="fh5co-footer" role="contentinfo">
 		<div class="container">
 			<div class="row row-pb-md">
 				<div class="col-md-3 fh5co-widget">
-					<h4>About Learning</h4>
-					<p>Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia reprehenderit. Eos cumque dicta adipisci architecto culpa amet.</p>
+					<h4>About University</h4>
+					<p>Superior University has built a level of trust and confidence among its existing and aspiring students due to the launch of innovative but effective study and work plans.</p>
 				</div>
 				<div class="col-md-2 col-sm-4 col-xs-6 col-md-push-1">
 					<h4>Learning</h4>
@@ -261,8 +261,8 @@
 			<div class="row copyright">
 				<div class="col-md-12 text-center">
 					<p>
-						<small class="block">&copy; 2016 Free HTML5. All Rights Reserved.</small> 
-						<small class="block">Designed by <a href="http://freehtml5.co/" target="_blank">FreeHTML5.co</a> Demo Images: <a href="http://unsplash.co/" target="_blank">Unsplash</a></small>
+						<small class="block">&copy; Our Social Media Platforms.</small> 
+						{{-- <small class="block">Designed by <a href="#" target="_blank">FreeHTML5.co</a> Demo Images: <a href="#" target="_blank">Unsplash</a></small> --}}
 					</p>
 					<p>
 						<ul class="fh5co-social-icons">

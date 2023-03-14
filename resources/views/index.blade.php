@@ -94,7 +94,7 @@
 					</div>
 					<div class="col-xs-11 text-right menu-1">
 						<ul>
-							<li class="active"><a href="{{url('/')}}">Home</a></li>
+							<li class="active"><a href="{{url('#')}}">Home</a></li>
 							<li><a href="{{url('books')}}">Courses</a></li>
 							<li><a href="{{url('prices')}}">Pricing</a></li>
 							<li class="has-dropdown">
@@ -677,8 +677,8 @@
 			<div class="row copyright">
 				<div class="col-md-12 text-center">
 					<p>
-						<small class="block">&copy; 2016 Free HTML5. All Rights Reserved.</small> 
-						<small class="block">Designed by <a href="#" target="_blank">FreeHTML5.co</a> Demo Images: <a href="#" target="_blank">Unsplash</a></small>
+						<small class="block">&copy; Our Social Media Platforms.</small> 
+						{{-- <small class="block">Designed by <a href="#" target="_blank">FreeHTML5.co</a> Demo Images: <a href="#" target="_blank">Unsplash</a></small> --}}
 					</p>
 					<p>
 						<ul class="fh5co-social-icons">
